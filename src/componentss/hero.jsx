@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import heroVideo from "../assetso/vid3.mp4";
-import {useNavigate} from "react-router-dom";
 
 function Hero() {
-  const navigate = useNavigate();
   return (
     <section id="home" className="hero">
 
