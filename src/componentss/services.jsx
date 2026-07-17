@@ -30,10 +30,10 @@ function Services() {
             match your dream celebration.Experience the wedding of your dreams
             with our luxury wedding planning and décor services. We create 
             breathtaking celebrations with premium floral arrangements, elegant
-            stage designs, sophisticated lighting, grand entrances, and customized 
-            décor concepts. Every detail is carefully curated to reflect your style,
-            ensuring a timeless and unforgettable wedding experience filled with 
-            elegance, beauty, and luxury.
+            stage designs, grand entrances, and customized décor concepts. 
+            Every detail is carefully curated to reflect your style,ensuring
+            a timeless and unforgettable wedding experience filled with 
+            elegance and luxury.
           </p>
           <a href="/luxury-wedding" className="learn-more">
             Learn More
@@ -51,9 +51,6 @@ function Services() {
           <div className="service-content">
           <h3>Destination Wedding</h3>
           <p>
-            Transform any space with our exquisite floral arrangements,
-            featuring a wide variety of fresh blooms and seasonal designs
-            tailored to your specific event and style preferences.
             Turn your dream destination into the perfect wedding venue with 
             our complete destination wedding planning services. From venue 
             selection and guest coordination to décor, entertainment, and event 
@@ -78,12 +75,12 @@ function Services() {
           <h3>Elegant Engagement</h3>
           <p>
             Celebrate the beginning of your journey together with beautifully
-            crafted engagement décor, featuring elegant themes, floral accents,
-            and personalized setups.Our elegant engagementdécor focuses on 
-            sophistication, grace, and timeless beauty. We blend exquisite floral
-            designs, refined color palettes, stylish stage setups, and ambient lighting
-            to create a charming and romantic atmosphere. Every element is thoughtfully 
-            designed to make your special day memorable and visually stunning.
+            crafted décor, featuring elegant themes, floral accents, and
+            personalized setups.Our elegant engagementdécor focuses on 
+            sophistication, grace, and timeless beauty. We blend exquisite floral 
+            designs,stylish stage setups, and ambient lighting to create a charming
+            and romantic atmosphere. Every element is thoughtfully designed to
+            make your special day memorable and visually stunning.
           </p>
           <a href="/elegant-engagement" className="learn-more">
             Learn More
@@ -105,13 +102,12 @@ function Services() {
                 & 
             Theme Decor</h3>
           <p>
-            Enhance your reception with stylish backdrops, premium floral
-            designs, ambient lighting, and sophisticated decorations that leave
-            a lasting impression.Celebrate your special moments with unique reception 
-            and theme décor tailored to your vision. Whether you prefer a royal, traditional,
-            modern, floral, rustic, or customized theme, our creative team transforms venues
-            into spectacular settings. From stage decoration and entrance designs to table 
-            arrangements and lighting concepts, we ensure a seamless and elegant celebration.
+            Celebrate your special moments with unique reception and
+            theme décor tailored to your vision. Whether you prefer a royal,
+            traditional, modern, floral, rustic, or customized theme, our 
+            creative team transforms venues into spectacular settings. 
+            From stage decoration and entrance designs to table arrangements
+            and lighting concepts, we ensure a seamless and elegant celebration.
           </p>
            <a href="/reception-night" className="learn-more">
             Learn More
@@ -156,11 +152,13 @@ function Services() {
           <p>
             Elevate your business gatherings with professional event planning,
             modern décor, and seamless execution for conferences, product
-            launches, and team-building activities.Professionalism meets creativity
-            with our corporate event planning services. We organize conferences, product
-            launches, award ceremonies, annual meetings, exhibitions, and corporate celebrations
-            with precision and excellence. Our team ensures a well-managed event experience through
-            premium stage setups, branding solutions, audiovisual support, and flawless execution.
+            launches, and team-building activities.Professionalism meets
+            creativity with our corporate event planning services. We
+            organize conferences, product launches, award ceremonies,
+            annual meetings, exhibitions, and corporate celebrations with 
+            precision and excellence. Our team ensures a well-managed event
+            experience through premium stage setups, branding solutions, 
+            audiovisual support, and flawless execution.
           </p>
           <a href="corporate-events" className="learn-more">
             Learn More
