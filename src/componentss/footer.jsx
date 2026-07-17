@@ -1,5 +1,5 @@
 import logo7 from "../assetso/logo7.jpeg";
-import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope,FaInstagram } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 function Footer() {
@@ -26,6 +26,7 @@ function Footer() {
               <p>dinadecors84@gmail.com</p>
             </div>
           </div>
+         
 
           <div className="contact-item">
             <FaLocationDot className="icon" />
@@ -60,6 +61,17 @@ function Footer() {
             meticulous attention to detail, ensuring unforgettable
             moments for you and your guests.
           </p>
+           <div className="footer-social">
+  <p className="follow-text">Follow us on Instagram</p>
+  <a
+    href="https://www.instagram.com/_dina_decoration/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <FaInstagram />
+  </a>
+</div>
 
         </div>
 

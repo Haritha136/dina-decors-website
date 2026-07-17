@@ -28,9 +28,14 @@ function Hero() {
           Wedding • Reception • Engagement • Corporate Events
         </p>
 
-        <Link to="/consultation" className="hero-btn">
-          Free Consultation ➔
-        </Link>
+        <a
+  href="https://wa.me/918113917460?text=Hi%20Dina%20Decors,%20I%20would%20like%20a%20free%20consultation."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hero-btn"
+>
+  Free Consultation ➜
+</a>
       </motion.div>
 
     </section>
