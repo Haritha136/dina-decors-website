@@ -3,6 +3,7 @@ import heroVideo from "../assetso/vid3.mp4";
 import {UseNavigate} from "react-router-dom";
 
 function Hero() {
+  const navigate = UseNavigate();
   return (
     <section id="home" className="hero">
 
