@@ -8,14 +8,14 @@ body{
     top: 0;
     left:0;
     width: 100%;
-    padding: 15px 50px;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:none;
     background: rgba(0,0,0,.35);
     backdrop-filter: blur(8px);
     z-index:999;
+    box-sizing:border-box;
 }.nav-links a{
     color: #d4af37;
     text-decoration: none;
@@ -469,13 +469,15 @@ p{
 
 /* Hide menu button on desktop */
 .menu-btn {
-  display:none;
+  display:block;
   color: #d4af37;
-  font-size:32px;
+  font-size:34px;
   background: none;
   border:none;
   cursor: pointer;
-  z-index: 10000;
+  padding:5px;
+  margin-right:5px;
+  flex-shrink:0;
 }
 
 /* Mobile dropdown */
@@ -873,7 +875,10 @@ html {
 @media (max-width:768px){
 
   .navbar{
-    padding:12px 18px;
+    padding:12px 15px;
+  }
+  .menu-btn{
+    margin-right:0;
   }
 
   .logo-section img{
@@ -882,7 +887,8 @@ html {
   }
 
   .logo-section h2{
-    font-size:16px;
+    font-size:14px;
+    line-height:1.2;
   }
 
   .hero{
