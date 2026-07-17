@@ -1,4 +1,4 @@
-import logo from "../assetso/logo2.jpeg";
+import logo2 from "../assetso/logo2.jpeg";
 function Footer() {
   return (
     <footer className="footer">
