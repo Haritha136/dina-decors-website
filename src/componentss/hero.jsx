@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroVideo from "../assetso/vid3.mp4";
-import {Link} from "react-router-dom";
+import {UseNavigate} from "react-router-dom";
 
 function Hero() {
   return (
