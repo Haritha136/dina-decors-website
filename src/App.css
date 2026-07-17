@@ -387,21 +387,42 @@ h1{
   font-weight:bold;
   cursor:pointer;
 }.footer{
-  background:#f8f8f8;
+  background:#fff;
   padding:60px 20px;
   text-align:center;
-  border-top:2px solid #d4af37;
+  border-top:1px solid #e8e8e8;
+}
+.footer-logo{
+    margin-bottom:20px;
+
+}
+.footer-logo img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
 }
 
 .footer h3{
   color:#d4af37;
-  font-size:28px;
+  font-size:2rem;
   font-family: 'Playfair Display',serif;
+  margin-bottom:15px;
+  font-weight:700;
 }
 
 .footer p{
-  color:#555;
-}.whatsapp{
+  color:#666;
+  line-height:1.8;
+  font-size:1rem;
+  margin:8px 0;
+}
+.copyright{
+    margin-top:20px;
+    color:#999;
+    font-size:0.95rem;
+}
+
+.whatsapp{
   position:fixed;
   bottom:20px;
   right:20px;
@@ -994,7 +1015,17 @@ html {
   }
 
   .footer{
-    padding:40px 20px;
+    padding:45px 20px;
+  }
+  .footer-logo img{
+    width:70px;
+    height:70px;
+  }
+  .footer h3{
+    font-size:1.5rem;
+  }
+  .footer p{
+    font-size:0.95rem;
   }
 
   .whatsapp{
