@@ -12,14 +12,14 @@ import gallery41 from "../assetso/gallery41.jpeg";
 import gallery8 from "../assetso/gallery8.png";
 
 import gallery9 from "../assetso/gallery9.png";
-import gallery51 from "../assetso/gallery51.jpeg";
+import gallery56 from "../assetso/gallery56.png";
 import gallery53 from "../assetso/gallery53.jpeg";
 import gallery12 from "../assetso/gallery12.png";
 
 import gallery13 from "../assetso/gallery13.png";
 import gallery52 from "../assetso/gallery52.png";
 import gallery50 from "../assetso/gallery50.png";
-import gallery1 from "../assetso/gallery1.jpeg";
+import gallery29 from "../assetso/gallery29.jpeg";
 
 function Gallery() {
   const [category, setCategory] = useState("intimate");
@@ -41,7 +41,7 @@ function Gallery() {
 
   destination: [
     gallery9,
-    gallery51,
+    gallery56,
     gallery53,
     gallery12,
   ],
@@ -50,7 +50,7 @@ function Gallery() {
     gallery50,
     gallery52,
     gallery13,
-    gallery1,
+    gallery29,
   ],
 };
 

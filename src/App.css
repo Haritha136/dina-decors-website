@@ -557,6 +557,13 @@ h1{
   position:fixed;
   bottom:20px;
   right:20px;
+  width:60px;
+  height:60px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:32px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
   background:#25D366;
   color:white;
   padding:15px 20px;
@@ -564,7 +571,12 @@ h1{
   text-decoration:none;
   font-weight:bold;
   z-index:1000;
-}section{
+  transition:transform 0.3s ease;
+}
+.whatsapp:hover{
+  transform:scale(1.1);
+}
+section{
   padding:120px 10%;
 }
 
@@ -1177,4 +1189,38 @@ html {
 .icon:hover {
   color: #f5c542;
   transform: scale(1.1);
+}
+.blog-video {
+  padding: 80px 10%;
+  background: #fff;
+}
+
+.blog-content {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.blog-content h2 {
+  font-size: 2.5rem;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.blog-content p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.video-container {
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
 }

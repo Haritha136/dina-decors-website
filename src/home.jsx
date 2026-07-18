@@ -6,10 +6,12 @@ import Services from './componentss/services';
 import Gallery from './componentss/gallery';
 import Video from './componentss/video';
 import Features from "./componentss/features";
+import BlogVideo from './componentss/blogvideo';
 import WhyChooseUs from './componentss/whychooseus';
 import Testimonials from './componentss/testimonials';
-import Contact from './componentss/contact';
+import Contact from './componentss/contact'; 
 import Footer from './componentss/footer';
+import { FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -22,6 +24,7 @@ function Home() {
       <Gallery />
       <Video />
       <Features/>
+      <BlogVideo/>
       <WhyChooseUs />
       <Testimonials />
       <Contact />
@@ -32,8 +35,9 @@ function Home() {
         className="whatsapp"
         target="_blank"
         rel="noreferrer"
+        aria-label="Chat on WhatsApp"
       >
-        WhatsApp
+        <FaWhatsapp />
       </a>
     </>
   );
