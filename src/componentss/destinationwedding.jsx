@@ -1,20 +1,18 @@
 import ServiceCards from"./servicecards";
-import gallery8 from"../assetso/gallery8.png";
+import gallery43 from"../assetso/gallery43.jpeg";
 import gallery9 from"../assetso/gallery9.png";
 import gallery13 from"../assetso/gallery13.png";
 import gallery14 from"../assetso/gallery14.png";
 import gallery17 from"../assetso/gallery17.png";
-import gallery20 from"../assetso/gallery20.png";
 import gallery23 from"../assetso/gallery23.png";
 import gallery5 from"../assetso/gallery5.png";
 
 function DestinationWedding() {
-  const galleryImages=[gallery8,
+  const galleryImages=[gallery43,
     gallery9,
     gallery13,
     gallery14,
   gallery17,
-    gallery20,
     gallery23,
 
   ];

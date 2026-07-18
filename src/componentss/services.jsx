@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import gallery24 from "../assetso/gallery24.png";
-import gallery2 from "../assetso/gallery2.jpeg";
+import gallery48 from "../assetso/gallery48.png";
 import gallery18 from "../assetso/gallery18.png";
-import gallery7 from "../assetso/gallery7.png";
+import gallery6 from "../assetso/gallery6.png";
 import gallery37 from "../assetso/gallery37.jpeg";
 import gallery36 from "../assetso/gallery36.jpeg";
 
@@ -96,7 +96,7 @@ function Services() {
           viewport={{ once: true,amount:0.3 }}
           transition={{ duration: 0.8}}
         ><div className="card-image">
-          <img src={gallery2} alt="reception decoration" /></div>
+          <img src={gallery48} alt="reception decoration" /></div>
           <div className="service-content">
           <h3>Reception Night 
                 & 
@@ -123,7 +123,7 @@ function Services() {
           viewport={{ once: true ,amount:0.3}}
           transition={{ duration: 0.8 }}
         ><div className="card-image">
-          <img src={gallery7} alt="birthday decoration" /></div>
+          <img src={gallery6} alt="birthday decoration" /></div>
           <div className="service-content">
           <h3>Memorable Birthdays</h3>
           <p>

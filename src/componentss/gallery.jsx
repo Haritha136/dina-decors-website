@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import bgImage from"../assetso/gallery35.jpeg";
 import "./gallery.css";
 import gallery38 from "../assetso/gallery38.jpeg";
-import gallery39 from "../assetso/gallery39.jpeg";
-import gallery3 from "../assetso/gallery31.jpeg";
+import gallery54 from "../assetso/gallery54.png";
+import gallery55 from "../assetso/gallery55.png";
 import gallery4 from "../assetso/gallery4.jpeg";
 
 import gallery21 from "../assetso/gallery21.png";
@@ -12,23 +12,23 @@ import gallery41 from "../assetso/gallery41.jpeg";
 import gallery8 from "../assetso/gallery8.png";
 
 import gallery9 from "../assetso/gallery9.png";
-import gallery10 from "../assetso/gallery10.png";
-import gallery11 from "../assetso/gallery11.png";
+import gallery51 from "../assetso/gallery51.jpeg";
+import gallery53 from "../assetso/gallery53.jpeg";
 import gallery12 from "../assetso/gallery12.png";
 
 import gallery13 from "../assetso/gallery13.png";
-import gallery14 from "../assetso/gallery14.png";
-import gallery15 from "../assetso/gallery15.png";
-import gallery16 from "../assetso/gallery16.png";
+import gallery52 from "../assetso/gallery52.png";
+import gallery50 from "../assetso/gallery50.png";
+import gallery1 from "../assetso/gallery1.jpeg";
 
 function Gallery() {
   const [category, setCategory] = useState("intimate");
 
   const images = {
   intimate: [
+    gallery54,
     gallery38,
-    gallery39,
-    gallery3,
+    gallery55,
     gallery4,
   ],
 
@@ -41,16 +41,16 @@ function Gallery() {
 
   destination: [
     gallery9,
-    gallery10,
-    gallery11,
+    gallery51,
+    gallery53,
     gallery12,
   ],
 
   luxury: [
+    gallery50,
+    gallery52,
     gallery13,
-    gallery14,
-    gallery15,
-    gallery16,
+    gallery1,
   ],
 };
 
