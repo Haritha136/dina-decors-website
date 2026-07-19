@@ -2,7 +2,7 @@ function Stats() {
   const stats = [
     { number: "1500+", label: "Happy Couples" },
     { number: "4.9/5", label: "Google Rating" },
-    { number: "10+", label: "Years Of Experience" },
+    { number: "8+", label: "Years Of Experience" },
     { number: "100%", label: "Client Satisfaction" },
   ];
 

@@ -18,6 +18,13 @@ function Footer() {
               <p>+91 8111900460</p>
             </div>
           </div>
+          <div className="contact-item">
+            <FaInstagram className="icon" />
+            <div>
+              <h4>DM US</h4>
+              <p>_dina_decoration</p>
+            </div>
+          </div>
 
           <div className="contact-item">
             <FaEnvelope className="icon" />

@@ -78,14 +78,14 @@
 }
 
 .gallery-header h2{
-  color:#d4af37;
+  color:white;
   font-size:42px;
   margin-bottom:10px;
   font-family:serif;
 }
 
 .gallery-header p{
-  color:goldenrod;
+  color:white;
   font-size:18px;
   max-width:600px;
   margin:auto;

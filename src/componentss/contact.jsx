@@ -86,13 +86,15 @@ return (
         <input name="phone" placeholder="Phone Number" />
         {errors.phone && <p>{errors.phone}</p>}
 
-        <select name="event_type">
-          <option value="">Select Event Type</option>
-          <option>Wedding</option>
-          <option>Birthday</option>
-          <option>Corporate Event</option>
-          <option>Concert</option>
-          <option>Other</option>
+        <select name="event_type" defaultValue="" required>
+          <option value="" disabled>
+            Select Event Type
+          </option>
+          <option value="wedding">Wedding</option>
+          <option value="birthday">Birthday</option>
+          <option value="corporate">Corporate Event</option>
+          <option value="concert">Concert</option>
+          <option value="other">Other</option>
         </select>
 
         {errors.event_type && <p>{errors.event_type}</p>}

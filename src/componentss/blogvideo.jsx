@@ -2,7 +2,7 @@ import eventVideo from"../assetso/vid5.mp4";
 function BlogVideo(){
   return (
     <section className="video-section">
-      <h2>See Latest Blog</h2>
+      <h2>Our Latest Blog</h2>
 
       <video
         className="event-video"
