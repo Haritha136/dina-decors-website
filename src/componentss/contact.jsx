@@ -98,10 +98,10 @@ return (
         </select>
 
         {errors.event_type && <p>{errors.event_type}</p>}
-
+        <label className="form-label">Event Date</label>
         <input type="date" name="event_date" />
         {errors.event_date && <p>{errors.event_date}</p>}
-
+        <label className="form-label">Event Time</label>
         <input type="time" name="event_time" />
         {errors.event_time && <p>{errors.event_time}</p>}
 
