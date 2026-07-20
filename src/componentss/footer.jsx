@@ -22,7 +22,7 @@ function Footer() {
             <FaInstagram className="icon" />
             <div>
               <h4>DM US</h4>
-              <p>_dina_decoration</p>
+              <p>dinadecor_and_eventplanners</p>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ function Footer() {
            <div className="footer-social">
   <p className="follow-text">Follow us on Instagram</p>
   <a
-    href="https://www.instagram.com/_dina_decoration/"
+    href="https://www.instagram.com/dinadecor_and_eventplanners?igsh=MWx5c2pyN2NoYnM3dA=="
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
