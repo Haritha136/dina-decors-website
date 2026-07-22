@@ -1,5 +1,5 @@
 import logo7 from "../assetso/logo7.jpeg";
-import { FaPhoneAlt, FaEnvelope,FaInstagram } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaInstagram } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 
 function Footer() {
@@ -71,7 +71,7 @@ function Footer() {
            <div className="footer-social">
   <p className="follow-text">Follow us on Instagram</p>
   <a
-    href="https://www.instagram.com/dinadecor_and_eventplanners?igsh=MWx5c2pyN2NoYnM3dA=="
+    href="https://www.instagram.com/dinadecor_and_eventplanners/"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
